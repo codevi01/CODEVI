@@ -1,5 +1,5 @@
 @import url(codevi2.css);
-
+@import url(codevi3.css);
 
 
 
@@ -83,12 +83,9 @@ nav li a:hover
 {
     display: block;
     box-shadow: 0 0 2px black;
-    color: #00171f
+    color: #ffffff;
+    list-style: none;
 
-}
-.dropdown:hover .dropdown-menu
-{
-    display: block;
 }
 
 ul {
@@ -188,7 +185,15 @@ ul {
   background-color: #ff0000;
 }
 
-
-
-
-
+@media(max-width: 700px)
+{
+  .dropdown:hover .dropdown-menu
+{
+    display: block;
+    color: #fff;
+}
+  .contatos, .sobre
+  {
+    display: none;
+  }
+}

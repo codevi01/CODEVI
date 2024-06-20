@@ -10,7 +10,7 @@
 .texto
 {
   font-family: "Josefin Sans", sans-serif;
-  color:#adebff;
+  color:#72FFFF;
   background-color: black;
   text-align: center;
   justify-content: center;
@@ -70,7 +70,7 @@
 }
 .titulo
 {
-  color: #adebff;
+  color: #72FFFF;
   background-color: black;
   text-align: center;
 }
@@ -86,7 +86,6 @@
 
 .card {
   width: 190px;
-  height: 254px;
   border-radius: 30px;
   background: #000000;
  flex-direction: column;
@@ -98,7 +97,6 @@
 .card1 {
   display: flex;
   width: 190px;
-  height: 254px;
   border-radius: 30px;
   background: #000000;
   color: aliceblue;
@@ -109,6 +107,7 @@
  }
 .card2 {
   width: 190px;
+  
   border-radius: 30px;
   background: #000000;
   color: #ffffff;
@@ -163,6 +162,7 @@
 .contexto
 {
   font-family: "DM Serif Display", serif;
+  padding-top: 1rem;
 }
 
 @media(max-width: 750px)
