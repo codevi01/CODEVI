@@ -1,0 +1,33 @@
+body
+{
+    background-color: black;
+}
+
+h1
+{
+    color: #B6000F;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+.trabalho1
+{
+    color: #B6000F;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    
+}
+
+.ale
+{
+    width: 500px;
+    height: 400px;
+}
+
+.teg
+{
+    font-size: 20px;
+}
