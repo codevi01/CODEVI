@@ -1,12 +1,14 @@
 .final
 {
-    height: 100px;
+    height: 100%;
     background-color:#72FFFF;
     display: flex;
     justify-content: space-between;
     padding: 20px;
     align-items: center;
-   max-width: 100%;
+    max-width: 100%;
+   
+    flex-wrap: wrap;
     
 }
 

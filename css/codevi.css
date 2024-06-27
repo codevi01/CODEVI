@@ -46,6 +46,7 @@ nav
 {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 
@@ -198,5 +199,14 @@ ul {
   .contatos, .sobre
   {
     display: none;
+  }
+
+  .banner
+  {
+    display: block;
+  }
+  .texto
+  {
+    width: 100%;
   }
 }
